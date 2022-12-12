@@ -42,6 +42,14 @@
         "label": "author"
       }
     },
+    "category": {
+      "type": "Link",
+      "config": {
+        "select": "document",
+        "customtypes": ["category"],
+        "label": "category"
+      }
+    },
     "uid": {
       "type": "UID",
       "config": {
